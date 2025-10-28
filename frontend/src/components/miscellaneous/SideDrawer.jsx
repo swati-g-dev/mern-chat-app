@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from 'axios';
 import ChatLoading from '../ChatLoading';
-import UserListItem from '../userAvatar/UserListItem';
+import UserListItem from '../UserComponents/UserListItem';
 
 const SideDrawer = () => {
   const [search, setSearch] = useState("");

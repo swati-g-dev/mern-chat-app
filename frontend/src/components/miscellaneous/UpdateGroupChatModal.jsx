@@ -4,8 +4,8 @@ import React, { useState } from 'react'
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
-import UserBadgeItem from '../userAvatar/UserBadgeItem';
-import UserListItem from '../userAvatar/UserListItem';
+import UserBadgeItem from '../UserComponents/UserBadgeItem';
+import UserListItem from '../UserComponents/UserListItem';
 import { ChatState } from '../../Context/ChatProvider';
 
 const UpdateGroupChatModal = ({ fetchMessages, fetchAgain, setFetchAgain }) => {

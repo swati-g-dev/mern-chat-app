@@ -4,8 +4,8 @@ import { ChatState } from '../../Context/ChatProvider';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
-import UserListItem from '../userAvatar/UserListItem';
-import UserBadgeItem from '../userAvatar/UserBadgeItem';
+import UserListItem from '../UserComponents/UserListItem';
+import UserBadgeItem from '../UserComponents/UserBadgeItem';
 
 const GroupChatModal = ({ children }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();

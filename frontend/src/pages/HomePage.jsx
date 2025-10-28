@@ -96,36 +96,3 @@ const HomePage = () => {
 
 
 export default HomePage
-
-// export default function Home() {
-//   return (
-//     <h1>hOme</h1>
-//   )
-// }
-
-
-
-
-// import { useEffect } from "react";
-// // import { useHistory } from "react-router";
-
-// function Homepage() {
-//   // const history = useHistory();
-//   // useEffect(() => {
-//   //   const user = JSON.parse(localStorage.getItem("userInfo"));
-//   //   if (user) history.push("/chats");
-//   // }, [history]);
-
-//   return (
-    
-      
-//         <Tabs isFitted variant="soft-rounded">
-//           <TabList mb="1em">
-//             <Tab>Login</Tab>
-//             <Tab>Sign Up</Tab>
-//           </TabList>
-//         </Tabs>
-//       </Box>
-//     </Container>
-//   );
-// }
