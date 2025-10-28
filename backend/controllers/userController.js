@@ -41,7 +41,7 @@ module.exports.registerUser = async (req, res) => {
 
 //  /api/user?search=swati
 module.exports.getAllUsers = async (req, res) => {
-  //if ther is query then search user else nothing
+  //if there is query then search user else nothing
   const keyword = req.query.search ? {
     $or: [
       { username: { $regex: req.query.search, $options: "i" } },

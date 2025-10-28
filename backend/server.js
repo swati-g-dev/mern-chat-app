@@ -15,7 +15,7 @@ const app = express();
 
 app.use(express.json());  //to accept JSON data
 
-//connect ot db
+//connect to db
 mongoose.connect(process.env.MONGO_URL)
     .then(() => {
         console.log("MongoDB Connection Successful");
@@ -41,7 +41,7 @@ app.use(errorHandler)
 
 
 
-// //creating api withwith express
+// //creating api with express
 // app.get('/api/chat', (req, res) => {
 //     res.send(chats);
 // });

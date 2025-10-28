@@ -4,7 +4,7 @@ const { protect } = require('../middleware/authMiddleware');
 const router = express.Router();
 
 
-//register user id theb controlller or theblogic for it
+//register user id the controller or the logic for it
 //endpoint is after /api/user as given in server.js file
 //will go to protect middleware before going to getalluser req
 router.route('/').post(registerUser).get(protect,getAllUsers)
